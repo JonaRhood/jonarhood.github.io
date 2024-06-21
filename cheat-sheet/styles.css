@@ -67,10 +67,10 @@ tbody tr:last-of-type td {
     border: 0;
 }
 
-.section2 {
-    margin-bottom: 130px;
-}
-
 .code {
     background-color: rgb(245, 240, 233);
+}
+
+.section2 {
+    margin-bottom: 130px;
 }
