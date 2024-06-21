@@ -13,18 +13,27 @@ body {
     background-color: antiquewhite;
 }
 
-h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
+header {
     padding: 10px;
     position: fixed;
-    z-index: 10;
     background-color: bisque;
     width: 100%;
     top: 0px;
     display: inline-block;
+    z-index: 200;
+    box-shadow: 0 0 2px black;
 }
+
+header::-webkit-scrollbar {
+    
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 
 main {
     position: relative;
@@ -49,6 +58,8 @@ table, thead, tbody, tr {
     border: 2px solid purple;
     margin: 0 auto;
 }
+
+
 
 thead {
     background-color: pink;
