@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- METAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="./resources/css/styles.css">
+
+    <title>Guitaree</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="headerdiv">
+            <div class="logo">
+                <img src="./resources/images/logo-guitar.png" alt="File not supported" title="Logo Guitaree">
+            </div>
+            <div class="navdiv">
+                <nav>
+                    <ul>
+                        <li><a href="#">Comprar</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="searcher">
+                <img src="./resources/images/buscar.png" alt="File not supported" title="Search button">
+            </div>
+        </div>
+        <!-- HEADER MOBILE -->
+        <div class="headermobile">
+            <div class="icon">
+                <img src="./resources/images/menuicon.png" alt="Picture not Supported" title="Menu Icon">
+            </div>
+            <div class="logo">
+                <img src="./resources/images/logo-guitar.png" alt="File not supported" title="Logo Guitaree">
+            </div>
+            <div class="searcher">
+                <img src="./resources/images/buscar.png" alt="File not supported" title="Search button">
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <!-- BANNER -->
+        <div class="topbanner">
+            <h3>Envío rápido y gratuito.</h3><img src="./resources/images/external-link.svg" alt="File not supported"
+                title="Link to other website">
+        </div>
+        <div class="bannercontainer">
+            <video autoplay muted loop id="bg-video">
+                <source src="./resources/videos/video-banner.mp4" type="video/mp4">
+                Video not Supported.
+            </video>
+            <div class="text">
+                <h3>Novedad</h3>
+                <h1>Guitaree Soundtrack</h1>
+                <h2>Lo necesitas. De inmediato.</h2>
+                <button value="Comprar" type="submit">Comprar</button>
+                <button value="Ver el Vídeo" type="submit">Ver el Vídeo</button>
+            </div>
+        </div>
+
+        <!-- ARTÍCULOS -->
+        <section class="section1">
+            <div class="titlediv">
+                <h2>Artículos populares</h2>
+            </div>
+            <div class="articulos">
+                <div class="content">
+                    <div class="urgent">
+                        <h2>NOVEDAD</h2>
+                    </div>
+                    <div class="title">
+                        <h2>Guitarra FB8911</h2>
+                        <h3>229,95€</h3>
+                    </div>
+                    <div class="images">
+                        <img src="./resources/images/guitarra1.jpg" alt="File not Supported" title="Guitarra">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="urgent">
+                        <h2>NOVEDAD</h2>
+                    </div>
+                    <div class="title">
+                        <h2>Guitarra RT781</h2>
+                        <h3>450,95€</h3>
+                    </div>
+                    <div class="images">
+                        <img src="./resources/images/guitarra2.jpg" alt="File not Supported" title="Guitarra">
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="urgent">
+                        <h2></h2>
+                    </div>
+                    <div class="title">
+                        <h2>Guitarra 3fE</h2>
+                        <h3>229,95€</h3>
+                    </div>
+                    <div class="images">
+                        <img src="./resources/images/guitarra3.jpg" alt="File not Supported" title="Guitarra">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INFORMACIÓN -->
+        <section class="info">
+            <div class="information">
+                <div class="content">
+                    <div class="item">
+                        <div class="picrail">
+                            <img class="picture" src="./resources/images/free-shipping-icon-hp-vp.png.large.2x.png"
+                                alt="Picture not Supported" title="Free Shipping Icon.">
+                        </div>
+                        <div class="titlerail">
+                            <h2>Envío gratuito</h2>
+                        </div>
+                        <div class="textrail">
+                            <h3>Disfruta el envío gratis en todos los artículos en stock.</h3>
+                        </div>
+                        <div class="externalrail">
+                            <a href="#">Más información <img class="external" src="./resources/images/external-link.svg"
+                                    alt="Picture not Supported." title="External Link."></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="picrail">
+                            <img class="picture" src="./resources/images/shop-png.png" alt="Picture not Supported"
+                                title="Shop Icon.">
+                        </div>
+                        <div class="titlerail">
+                            <h2>Recogida en tienda</h2>
+                        </div>
+                        <div class="textrail">
+                            <h3>Recoge tu pedido online en Thomann.</h3>
+                        </div>
+                        <div class="externalrail">
+                            <a href="#">Más información <img class="external" src="./resources/images/external-link.svg"
+                                    alt="Picture not Supported." title="External Link."></a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="picrail">
+                            <img class="picture" id="thirdone" src="./resources/images/free-shipping-icon-hp-vp.png.large.2x.png"
+                                alt="Picture not Supported" title="Easy Return Icon.">
+                        </div>
+                        <div class="titlerail">
+                            <h2>Devoluciones sencillas</h2>
+                        </div>
+                        <div class="textrail" id="thirdp">
+                            <h3>Devuelve a Apple los articulos que cumplan los requisitos en un plazo de 14 días después
+                                de
+                                recibirlos.</h3>
+                        </div>
+                        <div class="externalrail third">
+                            <a href="#">Más información <img class="external" src="./resources/images/external-link.svg"
+                                    alt="Picture not Supported." title="External Link."></h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PICTURE SECTION -->
+
+        <section class="picturediv">
+            <div class="picturecontent">
+                <div class="text">
+                    <h2>NOVEDAD</h2>
+                    <h1>Guitaree Concierto</h1>
+                    <h2>El 01 de Abril. En Barcelona.</h2>
+                </div>
+                <div class="buttons">
+                    <button value="Ver Tickets." type="submit">Ver Tickets</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- MORE SECTION -->
+
+        <section class="more">
+            <div class="content">
+                <div class="otros">
+                    <div class="item">
+                        <h2>Guitarras Flamencas</h2>
+                        <h3>Las mejores guitarras flamencas en Guitaree.</h3>
+                    </div>
+                    <div class="itemimage">
+                        <img src="./resources/images/flamenca.png" alt="Picture not Supported."
+                            title="Guitarras Flamencas">
+                    </div>
+                </div>
+                <div class="otros">
+                    <div class="item">
+                        <h2>Guitarras Acústicas</h2>
+                        <h3>Las mejores guitarras acústicas en Guitaree.</h3>
+                    </div>
+                    <div class="itemimage">
+                        <img src="./resources/images/acusticas.png" alt="Picture not Supported."
+                            title="Guitarras Acústicas">
+                    </div>
+                </div>
+                <div class="otros">
+                    <div class="item">
+                        <h2>Guitarras Eléctricas</h2>
+                        <h3>Las mejores guitarras eléctricas en Guitaree.</h3>
+                    </div>
+                    <div class="itemimage">
+                        <img src="./resources/images/electricas.png" alt="Picture not Supported."
+                            title="Guitarras Eléctricas">
+                    </div>
+                </div>
+                <div class="otros">
+                    <div class="item">
+                        <h2>Ukeleles</h2>
+                        <h3>Los Ukeleles en Guitaree.</h3>
+                    </div>
+                    <div class="itemimage">
+                        <img src="./resources/images/ukeleles.png" alt="Picture not Supported." title="Ukeleles.">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer">
+            <div class="content">
+                <h3>Copyright 2024 Guitaree. - Todos los derechos reservados.</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
