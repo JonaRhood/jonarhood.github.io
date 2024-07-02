@@ -576,6 +576,7 @@ header .headerdiv {
     .picturecontent button:hover {
         color: white;
         background-color: darkgoldenrod;
+        cursor: pointer;
     }
 
     @media only screen and (max-width: 750px) {
