@@ -171,6 +171,11 @@ header .headerdiv {
         height: 8rem;
         font-size: 2.5rem;
     }
+
+    .topbanner img {
+        width: 3rem;
+        padding-top: 0.3rem;
+    }
 }
 
 /* BANNER */
@@ -272,10 +277,13 @@ header .headerdiv {
         padding: 2rem 4rem;
         margin: 9rem 0;
         font-size: 3rem;
+        background-color: darkgoldenrod;
+        color: white;
     }
 
     .bannercontainer .text button:last-child {
         margin-left: 4rem;
+        background-color: transparent;
     }
 }
 
@@ -596,6 +604,8 @@ header .headerdiv {
             padding: 2rem 4rem;
             margin: 9rem 0;
             font-size: 3rem;
+            background-color: darkgoldenrod;
+            color: white;
         }
     }
 
@@ -683,7 +693,7 @@ header .headerdiv {
 
     .content .item h3 {
         font-size: 4rem !important;
-        font-weight: 250 !important;
+        font-weight: 300 !important;
         margin-bottom: 4rem;
     }
 }
