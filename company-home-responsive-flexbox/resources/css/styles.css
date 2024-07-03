@@ -576,7 +576,6 @@ header .headerdiv {
     .picturecontent button:hover {
         color: white;
         background-color: darkgoldenrod;
-        cursor: pointer;
     }
 
     @media only screen and (max-width: 750px) {
@@ -677,6 +676,33 @@ header .headerdiv {
         width: 50%;
         height: auto;
     }
+@media only screen and (max-width: 1000px) {
+    .more .content {
+        display: flex;
+        flex-flow: wrap;
+        width: 70%;
+    }
+
+    .content .uno {
+        box-sizing: border-box;
+        flex: 1 0 45%;
+    }
+
+    .content .dos {
+        box-sizing: border-box;
+        flex: 1 0 45%;
+    }
+
+    .content .tres {
+        box-sizing: border-box;
+        flex: 1 0 45%;
+    }
+
+    .content .cuatro {
+        box-sizing: border-box;
+        flex: 1 0 45%;
+    }
+}
 
 @media only screen and (max-width: 750px) {
      .more .content {
