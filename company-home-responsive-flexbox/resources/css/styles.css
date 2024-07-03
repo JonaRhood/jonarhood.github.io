@@ -243,6 +243,17 @@ header .headerdiv {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 1000px) {
+     .bannercontainer .text button {
+        background-color: darkgoldenrod;
+        color: white;
+    }
+
+    .bannercontainer .text button:last-child {
+        background-color: transparent;
+    }
+}
+
 @media only screen and (max-width: 750px) {
     .bannercontainer {
         display: flex;
@@ -576,6 +587,13 @@ header .headerdiv {
     .picturecontent button:hover {
         color: white;
         background-color: darkgoldenrod;
+    }
+
+    @media only screen and (max-width: 1000px) {
+         .picturecontent button {
+            background-color: darkgoldenrod;
+            color: white;
+        }
     }
 
     @media only screen and (max-width: 750px) {
