@@ -732,6 +732,26 @@ header .headerdiv {
         padding: 5rem;
     }
 
+     .content .uno {
+        box-sizing: border-box;
+        flex: 1 0 100%;
+    }
+
+    .content .dos {
+        box-sizing: border-box;
+        flex: 1 0 100%;
+    }
+
+    .content .tres {
+        box-sizing: border-box;
+        flex: 1 0 100%;
+    }
+
+    .content .cuatro {
+        box-sizing: border-box;
+        flex: 1 0 100%;
+    }
+
     .content .item h2 {
         font-size: 4.4rem !important;
     }
