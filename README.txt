@@ -1,2 +1,2 @@
-Remote Proof.
+Hello World!
 Hi, Jona.
