@@ -1,4 +1,79 @@
+/* Fonts */
 @font-face {
     font-family: 'Roboto Mono';
     src: url(../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
 }
+/* General */
+body {
+    font-size: 16px;
+    background-image: url(../images/backgr.jpg);
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAV and Logo */
+header {
+    display: flex;
+    width: 100%;
+    height: 6vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2vw;
+}
+
+header .divlogo {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    width: 70%;
+}
+
+header nav ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around
+}
+
+header .emptydiv {
+    display: flex;
+    width: 30%;
+}
+
+/* Home */
+
+main .home-section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+section .home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home-section .divtitle {
+    display: inline-block;
+    width: 100%;
+}
+
+.home-section .divlogo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
