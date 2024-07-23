@@ -3,6 +3,16 @@
     font-family: 'Roboto Mono';
     src: url(../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../fonts/Roboto_Mono/static/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(../fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
 /* General */
 body {
     font-size: 16px;
@@ -140,15 +150,7 @@ section .home-section {
     width: 5%;
 }
 
-/* Expertise */
-.expertise-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
+/* EXPERTISE */
 .titledivexpertise {
     display: flex;
     width: 100%;
@@ -165,25 +167,182 @@ section .home-section {
 
 .expertise-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 30vw;
+    flex-wrap: wrap;
+    height: 40vw;
+    text-align: left;
 }
 
 .expertise-section .box1 {
     display: flex;
-    width: 20%;
-    border: 2px solid white;
+    width: 23%;
+    height: auto;
+    border: 2px solid lightslategray;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .expertise-section .box2 {
     display: flex;
-    width: 20%;
-    border: 2px solid white;
+    width: 23%;
+    height: auto;
+   border: 2px solid lightslategray;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .expertise-section .box3 {
     display: flex;
-    width: 20%;
-    border: 2px solid white;
+    width: 23%;
+    height: auto;
+    border: 2px solid lightslategray;
+    flex-wrap: wrap;
 }
 
+.box1 .divtitlebox {
+    display: flex;
+    width: 100%;
+    height: 5vw;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+    padding-top: 2vh;
+}
+
+.box1 .divpbox {
+    display: flex;
+    width: 100%;
+    height: 10vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.box2 .divtitlebox {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+    padding-top: 2vh;
+    height: 5vw;
+}
+
+.box2 .divpbox {
+    display: flex;
+    width: 100%;
+    height: 10vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.box3 .divtitlebox {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding: 10%;
+    padding-top: 2vh;
+    height: 5vw;
+}
+
+.box3 .divpbox {
+    display: flex;
+    width: 100%;
+    height: 10vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+/* Expertise Text Style */
+.expertise-section .divtitlebox h3 {
+    margin-left: 1vw;
+    font-size: 1.6vw;
+    font-weight: bold;
+    line-height: 1.25;
+}
+
+.expertise-section .divpbox p {
+    line-height: 1.3;
+    font-size: 1vw;
+}
+
+ /* Coding Background Picture */
+.transparentbckgcoding {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -5vw;
+    z-index: -5;
+    
+}
+
+.transparentbckgcoding img {
+    opacity: 0.2;
+    width: 40%;
+    height: 70%;
+}
+
+/* Underlines in color from Expertises */
+#magentaunderline {
+  z-index: 0;
+  position: relative;
+  color: white;
+}
+
+#magentaunderline::after {
+transition: all 0.1s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 13.5%;
+  z-index: 1;
+opacity: 0.5;
+  height: 0.3em;
+  width: 104%;
+  left: -1%;
+  background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+#blueunderline {
+    z-index: 0;
+    position: relative;
+    color: white;
+  }
+  
+  #blueunderline::after {
+  transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: 1;
+  opacity: 0.5;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #1443d0 0%, #1443d0 100%, rgba(255, 209, 0, 0) 100%);
+  }
+
+  #greenunderline {
+    z-index: 0;
+    position: relative;
+    color: white;
+  }
+  
+  #greenunderline::after {
+  transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: 1;
+  opacity: 0.5;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #00ff5e 0%, #00ff5e 100%, rgba(255, 209, 0, 0) 100%);
+  }
