@@ -378,7 +378,7 @@ section .home-section {
 .projectimg img {
     width: 100%;
     border-radius: 0.5vw 0.5vw 0 0;
-    transition: transform .5s, filter 1.5s ease-in-out;
+    transition: transform 1s, filter 1.5s ease-in-out;
     filter: grayscale(70%);
 }
 
@@ -508,26 +508,29 @@ section .home-section {
     margin-bottom: 1vw;
     text-decoration: underline;
     text-decoration-color: transparent;
-
     transition-property: text-decoration-color;
-    transition-duration: 0.2s;
-    transition-delay: 0.1s -webkit-text-decoration-color: transparent;
-    -moz-text-decoration-color: transparent;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .projectblackbox h5 {
     font-family: 'Arial' sans-serif;
     opacity: 0.7;
     font-size: 1.5vw;
-    color: white;
-    transition-property: color;
-    transition-duration: 0.5s;
+    transition-property: color, opacity;
+    transition-duration: 0.4s;
     transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
 }
 
 /* Animation */
 .content-project .animationbox:hover {
     cursor: pointer;
+
+    img {
+        filter: grayscale(0);
+        transform: scale(1.05);
+    }
 }
 
 .projectblackbox h4:hover {
@@ -539,7 +542,6 @@ section .home-section {
     opacity: 1;
 }
 
-.projectimg img:hover {
-    filter: grayscale(0);
-    transform: scale(1.1);
+.content-project .divtexts {
+    display: flex;
 }
