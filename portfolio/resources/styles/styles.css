@@ -456,7 +456,7 @@ section .home-section {
     text-decoration: underline;
     text-decoration-color: transparent;
     transition-property: text-decoration-color;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     transition-timing-function: ease-in-out;
 
     -webkit-text-decoration-color: transparent;
@@ -503,10 +503,11 @@ section .home-section {
 .section-experience {
     display: flex;
     width: 100%;
-    height: 100vw;
+    height: auto;
     flex-wrap: wrap;
     align-content: baseline;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .section-experience .titlediv {
@@ -538,6 +539,7 @@ section .home-section {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 0.75rem;
+    margin: 0.4% 0;
 }
 
 .divexp .text {
@@ -560,7 +562,7 @@ section .home-section {
     display: flex;
     width: 50%;
     background-color: #450080ad;
-    padding: 3% 1.5%;
+    padding: 2% 1.5%;
     margin: 1% 0;
     border-radius: 0.3vw;
     text-align: left;
@@ -578,14 +580,42 @@ section .home-section {
     width: 100%;
     font-family: "Roboto Mono", sans-serif;
     opacity: 0.75;
+    margin-bottom: 2%;
+    align-items: center;
 }
 
+.info .divlocation a {
+    width: 3.5%;
+    margin-right: 2%;
+}
+
+.info .divlocation img {
+    width: 100%;
+}
+
+.info .divlocation span {
+    margin-right: 5%;
+}
+
+.info .divp {
+    line-height: 1.4;
+}
 .info .divskills {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     font-family: "Roboto Mono", sans-serif;
+    font-size: 0.6rem;
     opacity: 0.75;
+    margin-top: 3%;
+}
+
+.divskills div {
+    display: flex;
+    background-color: purple;
+    border-radius: 30px;
+    padding: 1.2% 3%;;
+    margin: 1%;
 }
 
 .respexp1hidden .logo {
@@ -597,4 +627,42 @@ section .home-section {
 
 .respexp1hidden .logo img{
     width: 70%;
+    opacity: 0.8;
+}
+
+/* Escondido */
+.respexp1hidden:nth-child(n+4) {
+    display: none;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;;
+    align-items: center;
+    background-color: black;
+    padding: 1.5% 0;
+}
+
+footer .footerlogos {
+    display: flex;
+    width: 40%;
+    margin: 0 2%;
+}
+
+footer .footerlogos img {
+    filter: invert(1);
+    margin: 0 2%;
+    width: 12%;
+}
+
+footer .copyrigth {
+    display: flex;
+    width: 40%;
+    font-size: 1rem;
+    flex-direction: column;
+    margin: 0 1.5%;
+    text-align: right;
+    line-height: 1.2;
 }
