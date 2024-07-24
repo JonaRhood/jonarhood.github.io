@@ -1,18 +1,3 @@
-/* Fonts */
-@font-face {
-    font-family: 'Roboto Mono';
-    src: url(../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Roboto Bold';
-    src: url(../fonts/Roboto_Mono/static/RobotoMono-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Roboto Light';
-    src: url(../fonts/Roboto_Mono/static/RobotoMono-Light.ttf);
-}
 
 /* General */
 body {
@@ -26,11 +11,17 @@ body {
 }
 
 img {
-    width: 20%;
+    width: 18%;
 }
 
 a {
     text-decoration: none;
+}
+
+.titlesweb {
+     font-family: 'Roboto Mono';
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 #homebanner {
@@ -159,9 +150,6 @@ section .home-section {
 
 .titledivexpertise h2 {
     width: 100%;
-    font-family: 'Roboto Bold';
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .expertise-section {
@@ -176,9 +164,9 @@ section .home-section {
 
 .expertise-section .box {
     display: flex;
-    width: 20em;
+    width: 22em;
     height: auto;
-    border: 2px solid lightslategray;
+    border: 2px solid #a7b5c2;
     flex-wrap: wrap;
     align-items: flex-start;
 }
@@ -205,15 +193,15 @@ section .home-section {
 /* Expertise Text Style */
 .expertise-section .divtitlebox h3 {
     margin-left: 1vw;
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 1.25;
-    font-family: 'Roboto Bold';
+    font-size: 1.1rem;
+    font-weight: 550;
+    font-family: 'Roboto Mono';
 }
 
 .expertise-section .divpbox p {
-    line-height: 1.3;
-    font-size: 0.6rem;
+    line-height: 1.5;
+    font-size: 0.7rem;
+    font-weight: 300;
 }
 
 /* Coding Background Picture */
@@ -296,11 +284,12 @@ section .home-section {
 .project-section {
     display: flex;
     width: 100%;
-    height: 100vw;
+    height: auto;
     flex-wrap: wrap;
     align-content: baseline;
     justify-content: center;
     font-family: "Poppins", sans-serif;
+    margin-bottom: 2%;
 }
 
 .project-section .titlediv {
@@ -313,7 +302,7 @@ section .home-section {
 
 .project-section .titlediv h2 {
     width: 100%;
-    font-family: 'Roboto Bold';
+    font-family: 'Roboto Mono';
     font-size: 4vw;
     font-weight: bold;
 }
@@ -505,7 +494,9 @@ section .home-section {
     width: 100%;
     height: auto;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: baseline;
+    align-items: center;
     justify-content: center;
     margin-bottom: 5%;
 }
@@ -521,7 +512,7 @@ section .home-section {
 
 .section-experience .titlediv h2 {
     width: 100%;
-    font-family: 'Roboto Bold';
+    font-family: 'Roboto Mono';
     font-size: 2rem;
     font-weight: bold;
 }
@@ -529,7 +520,7 @@ section .home-section {
 /* experience divs */
 .section-experience .divexp {
     display: flex;
-    width: 50%;
+    width: 45%;
     height: 3.5vw;
     background-color: #75129c;
     border-radius: 0.3vw;
@@ -560,7 +551,7 @@ section .home-section {
 /* experience hidden divs */
 .respexp1hidden {
     display: flex;
-    width: 50%;
+    width: 45%;
     background-color: #450080ad;
     padding: 2% 1.5%;
     margin: 1% 0;
@@ -655,6 +646,9 @@ footer .footerlogos img {
     filter: invert(1);
     margin: 0 2%;
     width: 12%;
+    transition-property: filter;
+    transition-duration: 0.1s;
+    transition-timing-function:ease-in-out
 }
 
 footer .copyrigth {
@@ -665,4 +659,10 @@ footer .copyrigth {
     margin: 0 1.5%;
     text-align: right;
     line-height: 1.2;
+}
+
+/* Animations */
+footer .footerlogos img:hover {
+    cursor: pointer;
+    filter: invert(0.7);
 }
