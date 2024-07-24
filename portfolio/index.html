@@ -4,9 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan Cano Portfolio</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
     <link rel="stylesheet" href="resources/styles/reset.css">
     <link rel="stylesheet" href="resources/styles/styles.css">
+
+    <title>Jonathan Cano Portfolio</title>
 </head>
 
 <body>
@@ -50,7 +57,7 @@
         <h2>My Expertise</h2>
     </div>
     <section class="expertise-section">
-        <div class="box1">
+        <div class="box1 box">
             <div class="divtitlebox">
                 <img src="./resources/images/secondarylogos/exper1.png" alt="">
                 <h3><span id="magentaunderline">Software</span> Development</h3>
@@ -61,7 +68,7 @@
                     vestibulum. Suspendisse fringilla dui nec aliquet imperdiet.</p>
             </div>
         </div>
-        <div class="box2">
+        <div class="box2 box">
             <div class="divtitlebox">
                 <img src="./resources/images/secondarylogos/exper2.png" alt="">
                 <h3><span id="blueunderline">Backend Dev</span> React, NextJS</h3>
@@ -72,7 +79,7 @@
                     vestibulum.</p>
             </div>
         </div>
-        <div class="box3">
+        <div class="box3 box">
             <div class="divtitlebox">
                 <img src="./resources/images/secondarylogos/exper3.png" alt="">
                 <h3><span id="greenunderline">Flutter Dev</span> Android, iOS</h3>
@@ -97,8 +104,12 @@
                     <img src="./resources/images/projecto1.png" alt="">
                 </div>
                 <div class="projectblackbox">
-                        <div class="divtexts"><h4>Project 1</h4></div>
-                        <div class="divtexts"><h5>Web Development</h5></div>
+                    <div class="divtexts">
+                        <h4>Project 1</h4>
+                    </div>
+                    <div class="divtexts">
+                        <h5>Web Development</h5>
+                    </div>
                 </div>
             </div>
             <div class="box2 animationbox">
@@ -106,8 +117,12 @@
                     <img src="./resources/images/projecto2.png" alt="">
                 </div>
                 <div class="projectblackbox">
-                    <div class="divtexts"><h4>Project 2</h4></div>
-                        <div class="divtexts"><h5>Web Development</h5></div>
+                    <div class="divtexts">
+                        <h4>Project 2</h4>
+                    </div>
+                    <div class="divtexts">
+                        <h5>Web Development</h5>
+                    </div>
                 </div>
             </div>
             <div class="box3 animationbox">
@@ -115,8 +130,12 @@
                     <img src="./resources/images/projecto3.png" alt="">
                 </div>
                 <div class="projectblackbox">
-                    <div class="divtexts"><h4>Project 3</h4></div>
-                        <div class="divtexts"><h5>Web Development</h5></div>
+                    <div class="divtexts">
+                        <h4>Project 3</h4>
+                    </div>
+                    <div class="divtexts">
+                        <h5>Web Development</h5>
+                    </div>
                 </div>
             </div>
             <div class="box4 animationbox">
@@ -124,8 +143,12 @@
                     <img src="./resources/images/projecto3.png" alt="">
                 </div>
                 <div class="projectblackbox">
-                    <div class="divtexts"><h4>Project 4</h4></div>
-                    <div class="divtexts"><h5>Web Development</h5></div>
+                    <div class="divtexts">
+                        <h4>Project 4</h4>
+                    </div>
+                    <div class="divtexts">
+                        <h5>Web Development</h5>
+                    </div>
                 </div>
             </div>
             <div class="box5 animationbox">
@@ -133,8 +156,12 @@
                     <img src="./resources/images/projecto3.png" alt="">
                 </div>
                 <div class="projectblackbox">
-                    <div class="divtexts"><h4>Project 5</h4></div>
-                    <div class="divtexts"><h5>Web Development</h5></div>
+                    <div class="divtexts">
+                        <h4>Project 5</h4>
+                    </div>
+                    <div class="divtexts">
+                        <h5>Web Development</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -143,11 +170,14 @@
     <!-- Experience -->
     <section class="section-experience">
         <div class="titlediv">
-            <h2>Experience & Education</h2>
+            <h2>Professional</h2> 
+            <h2>Experience</h2>
         </div>
-        <div class="divexp1">
+        <div class="divexp">
             <div class="text">
                 <h4>Full-Stack Engineer @ Codeacademy</h4>
+            </div>
+            <div class="divyear">
                 <h4>2024 - Present</h4>
             </div>
             <div class="plus">
@@ -156,16 +186,16 @@
         </div>
         <div class="respexp1hidden">
             <div class="info">
-                <div>
+                <div class="divlocation">
                     <a href="#"><img src="#" alt=""></a><span>Location, Country</span>
                     <a href="#"><img src="#" alt=""></a><span>Website</span>
                 </div>
-                <div>
+                <div class="divp">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id leo lacus. Nunc et
                         suscipit arcu, non ullamcorper orci. Vestibulum quis porta nunc, nec ultrices quam. In
                         pretium elit vulputate tortor pellentesque, eget pharetra lectus tempus. </p>
                 </div>
-                <div>
+                <div class="divskills">
                     <div>Javascript</div>
                     <div>React</div>
                     <div>Dart</div>
@@ -180,9 +210,11 @@
                 <a href="#"><img src="./resources/images/codecademy_logo_icon_167734.webp" alt=""></a>
             </div>
         </div>
-        <div class="divexp2">
+        <div class="divexp">
             <div class="text">
                 <h4>WebGL Developer @ Three.js Journey</h4>
+            </div>
+            <div class="divyear">
                 <h4>2024 - Present</h4>
             </div>
             <div class="plus">
@@ -191,16 +223,16 @@
         </div>
         <div class="respexp1hidden">
             <div class="info">
-                <div>
+                <div class="divlocation">
                     <a href="#"><img src="#" alt=""></a><span>Location, Country</span>
                     <a href="#"><img src="#" alt=""></a><span>Website</span>
                 </div>
-                <div>
+                <div class="divp">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id leo lacus. Nunc et
                         suscipit arcu, non ullamcorper orci. Vestibulum quis porta nunc, nec ultrices quam. In
                         pretium elit vulputate tortor pellentesque, eget pharetra lectus tempus. </p>
                 </div>
-                <div>
+                <div class="divskills">
                     <div>Javascript</div>
                     <div>React</div>
                     <div>Dart</div>
@@ -215,10 +247,12 @@
                 <a href="#"><img src="./resources/images/imagethreejs.avif" alt=""></a>
             </div>
         </div>
-        <div class="divexp3">
+        <div class="divexp">
             <div class="text">
                 <h4>Social Media @ Trinity Baptist Church</h4>
-                <h4>2022 - 2024</h4>
+            </div>
+            <div class="divyear">
+                <h4>2024 - Present</h4>
             </div>
             <div class="plus">
                 <a href="#">+</a>
@@ -226,16 +260,16 @@
         </div>
         <div class="respexp1hidden">
             <div class="info">
-                <div>
+                <div class="divlocation">
                     <a href="#"><img src="#" alt=""></a><span>Location, Country</span>
                     <a href="#"><img src="#" alt=""></a><span>Website</span>
                 </div>
-                <div>
+                <div class="divp">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id leo lacus. Nunc et
                         suscipit arcu, non ullamcorper orci. Vestibulum quis porta nunc, nec ultrices quam. In
                         pretium elit vulputate tortor pellentesque, eget pharetra lectus tempus. </p>
                 </div>
-                <div>
+                <div class="divskills">
                     <div>Javascript</div>
                     <div>React</div>
                     <div>Dart</div>
@@ -250,10 +284,12 @@
                 <a href="#"><img src="./resources/images/tbiclogo.png" alt=""></a>
             </div>
         </div>
-        <div class="divexp4">
+        <div class="divexp">
             <div class="text">
                 <h4>Web Developer @ Holistica Detox</h4>
-                <h4>2021-2022</h4>
+            </div>
+            <div class="divyear">
+                <h4>2024 - Present</h4>
             </div>
             <div class="plus">
                 <a href="#">+</a>
@@ -261,16 +297,16 @@
         </div>
         <div class="respexp1hidden">
             <div class="info">
-                <div>
+                <div class="divlocation">
                     <a href="#"><img src="#" alt=""></a><span>Location, Country</span>
                     <a href="#"><img src="#" alt=""></a><span>Website</span>
                 </div>
-                <div>
+                <div class="divp">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id leo lacus. Nunc et
                         suscipit arcu, non ullamcorper orci. Vestibulum quis porta nunc, nec ultrices quam. In
                         pretium elit vulputate tortor pellentesque, eget pharetra lectus tempus. </p>
                 </div>
-                <div>
+                <div class="divskills">
                     <div>Javascript</div>
                     <div>React</div>
                     <div>Dart</div>
@@ -285,27 +321,29 @@
                 <a href="#"><img src="./resources/images/holisticalogo.png" alt=""></a>
             </div>
         </div>
-        <div class="divexp5">
+        <div class="divexp">
             <div>
                 <h4>Cicle mitja @ Escoles Calella</h4>
+            </div>
+            <div class="divyear">
                 <h4>2024 - Present</h4>
             </div>
-            <div>
+            <div class="plus">
                 <a href="#">+</a>
             </div>
         </div>
         <div class="respexp1hidden">
             <div class="info">
-                <div>
+                <div class="divlocation">
                     <a href="#"><img src="#" alt=""></a><span>Location, Country</span>
                     <a href="#"><img src="#" alt=""></a><span>Website</span>
                 </div>
-                <div>
+                <div class="divp">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id leo lacus. Nunc et
                         suscipit arcu, non ullamcorper orci. Vestibulum quis porta nunc, nec ultrices quam. In
                         pretium elit vulputate tortor pellentesque, eget pharetra lectus tempus. </p>
                 </div>
-                <div>
+                <div class="divskills">
                     <div>Javascript</div>
                     <div>React</div>
                     <div>Dart</div>
