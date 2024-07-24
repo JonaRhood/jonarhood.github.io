@@ -22,6 +22,7 @@ body {
     background: rgba(17, 17, 15, 1);
     opacity: 0.9;
     color: white;
+    word-wrap: break-word;
 }
 
 img {
@@ -82,7 +83,7 @@ header .emptydiv {
 main .home-section {
     display: flex;
     width: 100%;
-    height: 800px;
+    height: 50vw;
     flex-wrap: wrap;
 
 }
@@ -130,7 +131,7 @@ section .home-section {
 }
 
 .divsubtext h2 {
-    font-size: 3vw;
+    font-size: 1.3rem;
     text-transform: uppercase;
     color: white;
 }
@@ -159,7 +160,7 @@ section .home-section {
 .titledivexpertise h2 {
     width: 100%;
     font-family: 'Roboto Bold';
-    font-size: 4vw;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -169,7 +170,7 @@ section .home-section {
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
-    height: 40vw;
+    height: 25rem;
     text-align: left;
 }
 
@@ -202,17 +203,17 @@ section .home-section {
 .box1 .divtitlebox {
     display: flex;
     width: 100%;
-    height: 5vw;
+    height: 2rem;
     justify-content: left;
     align-items: center;
     padding: 10%;
-    padding-top: 2vh;
+    padding-top: 2rem;
 }
 
 .box1 .divpbox {
     display: flex;
     width: 100%;
-    height: 10vw;
+    height: 6rem;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
@@ -224,14 +225,14 @@ section .home-section {
     justify-content: left;
     align-items: center;
     padding: 10%;
-    padding-top: 2vh;
-    height: 5vw;
+    padding-top: 2rem;
+    height: 2rem;
 }
 
 .box2 .divpbox {
     display: flex;
     width: 100%;
-    height: 10vw;
+    height: 6rem;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
@@ -243,14 +244,14 @@ section .home-section {
     justify-content: left;
     align-items: center;
     padding: 10%;
-    padding-top: 2vh;
-    height: 5vw;
+    padding-top: 2rem;
+    height: 2rem;
 }
 
 .box3 .divpbox {
     display: flex;
     width: 100%;
-    height: 10vw;
+    height: 6rem;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
@@ -259,7 +260,7 @@ section .home-section {
 /* Expertise Text Style */
 .expertise-section .divtitlebox h3 {
     margin-left: 1vw;
-    font-size: 1.6vw;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 1.25;
     font-family: 'Roboto Bold';
@@ -267,7 +268,7 @@ section .home-section {
 
 .expertise-section .divpbox p {
     line-height: 1.3;
-    font-size: 1vw;
+    font-size: 0.6rem;
 }
 
 /* Coding Background Picture */
@@ -511,6 +512,9 @@ section .home-section {
     transition-property: text-decoration-color;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
+
+    -webkit-text-decoration-color: transparent;
+    -moz-text-decoration-color: transparent;
 }
 
 .projectblackbox h5 {
@@ -535,6 +539,9 @@ section .home-section {
 
 .projectblackbox h4:hover {
     text-decoration-color: lightgray;
+
+    -webkit-text-decoration-color: red;
+    -moz-text-decoration-color: red;
 }
 
 .projectblackbox h5:hover {
