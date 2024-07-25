@@ -10,6 +10,15 @@ body {
     word-wrap: break-word;
 }
 
+::selection {
+    background: #fcb3be;
+    color: white;
+}
+::-moz-selection {
+    background: #fcb3be;
+    color: white;      
+  }
+
 img {
     width: 18%;
 }
@@ -43,6 +52,11 @@ header {
 
 header a {
     color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+header a:hover {
+    color: #00efff;
 }
 
 header .divlogo {
@@ -539,6 +553,7 @@ section .home-section {
     font-weight: 500;
     font-size: 0.75rem;
     margin: 0.4% 0;
+    transition: background-color 0.5s ease-in-out;
 }
 
 
@@ -551,10 +566,17 @@ section .home-section {
     display: flex;
     font-weight: 300;
     font-size: 0.9rem;
+    color: white;
+    transition: color 0.3s ease-in-out;
 }
 
-.divexp .plus a {
+.divexp .plus span {
     color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.divexp .plus span:hover {
+    color: #00efff;
 }
 
 .section-experience .divexp:hover {
