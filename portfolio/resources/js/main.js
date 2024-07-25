@@ -8,10 +8,12 @@ bannerExp.forEach(function(element) {
 
 // clicked Banner
 let clickedBanner = banners[0];
+console.log(banners)
+console.log(clickedBanner)
 
 
 // default color
-const defaultColor = () => {
+const clickedColor = () => {
     clickedBanner.style.backgroundColor = '#740bdb';
 }
 
@@ -23,18 +25,49 @@ const unclickedColor = () => {
 // change clicked Banner
 const addToClickedBanner = banner => {
     //mouse track
-    let selectedBanner = banner.target.className;
+    let selectedBanner = [];
+    selectedBanner.push(banner.target.className);
     console.log(selectedBanner);
 
     //quit color from old banner
-    unclickedColor(clickedBanner);
+       unclickedColor(clickedBanner);
 
-    //change clickedBanner 
-    let clickedBanner = 
+    // sort the numbers
+    for (let i = 0; i < selectedBanner.length; i++) {
+       if (selectedBanner[i].includes('1')) {
+        clickedBanner = banners[0];
+        clickedColor(clickedBanner);
+       }  else if (selectedBanner[i].includes('2')) {
+        clickedBanner = banners[1];
+        clickedColor(clickedBanner);
+       }  else if (selectedBanner[i].includes('3')) {
+        clickedBanner = banners[2];
+        clickedColor(clickedBanner);
+       }  else if (selectedBanner[i].includes('4')) {
+        clickedBanner = banners[3];
+        clickedColor(clickedBanner);
+       }  else if (selectedBanner[i].includes('5')) {
+        clickedBanner = banners[4];
+        clickedColor(clickedBanner);
+       }
 
-    //add color to new banner
+
+       
+    };
+
+    console.log(selectedBanner);
     console.log(clickedBanner);
-    defaultColor(clickedBanner);
+
+
+
+ 
+
+    // //change clickedBanner 
+    // let clickedBanner = 
+
+    // //add color to new banner
+    // console.log(clickedBanner);
+    // defaultColor(clickedBanner);
 };
 
 // color change
@@ -50,7 +83,7 @@ let eventAssigment = banner => {
 
 
 // loop
-defaultColor(clickedBanner);
+clickedColor(clickedBanner);
 
 banners.forEach(eventAssigment);
 
