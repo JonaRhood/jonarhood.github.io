@@ -70,7 +70,6 @@ const addToClickedBanner = banner => {
         document.getElementById('hiddenbanner3').style.display = 'none';
         document.getElementById('hiddenbanner4').style.display = 'none';
         document.getElementById('hiddenbanner5').style.display = 'none';
-        d
        }  else if (selectedBanner[i].includes('3')) {
         clickedBanner = banners[2];
         clickedColor(clickedBanner);
