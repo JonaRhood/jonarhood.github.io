@@ -530,7 +530,7 @@ section .home-section {
     display: flex;
     width: 45%;
     height: 3.5vw;
-    background-color: #740bdb;
+    background-color: #430e79;
     border-radius: 0.3vw;
     align-items: center;
     justify-content: space-between;
@@ -540,6 +540,7 @@ section .home-section {
     font-size: 0.75rem;
     margin: 0.4% 0;
 }
+
 
 .divexp .text {
     display: flex;
@@ -554,6 +555,10 @@ section .home-section {
 
 .divexp .plus a {
     color: white;
+}
+
+.section-experience .divexp:hover {
+    cursor: pointer;
 }
 
 /* experience hidden divs */
