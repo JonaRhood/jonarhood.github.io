@@ -639,6 +639,26 @@ section .home-section {
     display: none;
 }
 
+#hiddenbanner1 {
+    display: flex;
+}
+
+#hiddenbanner2 {
+    display: none;
+}
+
+#hiddenbanner3 {
+    display: none;
+}
+
+#hiddenbanner4 {
+    display: none;
+}
+
+#hiddenbanner5 {
+    display: none;
+}
+
 /* FOOTER */
 footer {
     display: flex;
