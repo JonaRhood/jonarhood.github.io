@@ -18,6 +18,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="resources/styles/reset.css">
     <link rel="stylesheet" href="resources/styles/styles.css">
+    <link rel="stylesheet" href="resources/styles/neonlogo.css">
 
     <title>Jonathan Cano Portfolio</title>
 </head>
@@ -26,8 +27,9 @@
     <div id="homebanner">
         <header>
             <!-- LOGO -->
-            <div class="divlogo">
-                <h2 class="h2logo"><a href="#">JonathanCano<span class="logodot">.</span><span class="logounder">_</span></a></h2>
+            <div class="divlogo text-effect-wrapper">
+                <h1 class="text">Jonathancano._</h1>
+                <!-- <h2 class="h2logo"><a href="#">JonathanCano<span class="logodot">.</span><span class="logounder">_</span></a></h2> -->
             </div>
             <!-- NAV -->
             <nav>
@@ -50,7 +52,7 @@
                         <h1 id="h1Jona">Jonathan Cano</h1>
                     </div>
                     <div class="divsubtext">
-                        <h2>Full-Stack Engineer</h2>
+                        <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
                     </div>
                 </div>
                 <div class="divlogo">
@@ -367,6 +369,7 @@
 
 
     <!-- FOOTER -->
+    <div class="neonbar" id="neonbar"></div>
     <footer>
         <div class="footerlogos">
             <img src="./resources/images/secondarylogos/github.png" alt="">
@@ -380,6 +383,7 @@
     </footer>
 
     <!-- SCRIPTS -->
+    <script src="resources/js/subtitlejava.js"></script>
     <script src="resources/js/main.js"></script>
 
 </body>
