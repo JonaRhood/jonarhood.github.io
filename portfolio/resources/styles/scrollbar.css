@@ -1,0 +1,23 @@
+/* SCROLLBAR CHROME */
+
+body::-webkit-scrollbar {
+    background: rgb(53, 53, 53);
+
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #494949, #7d7d7d);
+    border-radius: 10px;
+    border: 3px solid rgb(53, 53, 53);
+    margin: 2%;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to top, #858585, #919191);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(to top, #ff6565, #f3a2ff);
+    border-radius: 10px;
+}

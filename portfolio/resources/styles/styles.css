@@ -2,7 +2,7 @@
 body {
     font-size: 16px;
     text-align: center;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', sans-serif;
     background: rgba(17, 17, 15, 1);
     opacity: 0.9;
     color: white;
@@ -28,7 +28,7 @@ a {
 }
 
 .titlesweb {
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 2.7rem;
     font-weight: 700;
 }
@@ -113,6 +113,26 @@ section .home-section {
     width: 100%;
 }
 
+/* .console-underscore {
+    opacity: 1;
+    animation-name: blinking;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+}
+
+@keyframes blinking {
+    from
+    {
+        opacity: 1;
+    }
+
+    to 
+    {
+        opacity: 0;
+    }
+} */
+
 .home-section .divtitle {
     display: flex;
     width: 100%;
@@ -130,7 +150,7 @@ section .home-section {
 
 .divsubtext .console-container {
     display: flex;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 1.2rem;
     text-align: center;
     color: white;
@@ -237,7 +257,7 @@ section .home-section {
     margin-left: 1vw;
     font-size: 1.1rem;
     font-weight: 550;
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 .expertise-section .divpbox p {
