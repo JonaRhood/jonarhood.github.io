@@ -245,7 +245,7 @@ section .home-section {
 
 .expertise-section .box {
     display: flex;
-    width: 22em;
+    width: 22rem;
     min-height: 18rem;
     height: auto;
     border: 2px solid #a7b5c2;
@@ -280,6 +280,7 @@ section .home-section {
     font-weight: 550;
     font-family: 'Roboto Mono', sans-serif;
     line-height: 1.2;
+    transition: ease all .5;
 }
 
 .expertise-section .divpbox p {
@@ -603,7 +604,7 @@ section .home-section {
 .section-experience .titlediv {
     display: flex;
     width: 100%;
-    height: 15vw;
+    height: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -775,13 +776,12 @@ footer {
 
 footer .footerlogos {
     display: flex;
-    width: 40%;
+    width: 20%;
     margin: 0 2%;
 }
 
 footer .footerlogos {
     font-size: 4rem;
-    width: 12%;
     justify-content: space-between;
     transition-property: filter;
     transition-duration: 0.1s;
@@ -813,7 +813,7 @@ footer .footerlogos {
 
 footer .copyrigth {
     display: flex;
-    width: 40%;
+    width: 70%;
     font-size: 1.5rem;
     flex-direction: column;
     margin: 0 2%;

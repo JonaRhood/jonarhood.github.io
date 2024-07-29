@@ -121,7 +121,9 @@
         font-size: 1.1rem;
     }
 
-
+    .section-experience {
+        margin-bottom: 8%;
+    }
 
     .section-experience .divexp {
         width: 70%;
@@ -222,9 +224,7 @@
         padding-left: 3%;
     }
 
-    .section-experience .titlediv h2:last-child {
-        margin-bottom: 5%;
-    }
+   
 }
 
 @media only screen and (max-width: 870px) {
@@ -268,14 +268,51 @@
         height: 25rem;
     }
 
+    .content-project .box1 {
+        width: 90%;
+    }
+
+    .content-project .box2,
     .content-project .box3,
     .content-project .box4,
     .content-project .box5 {
-        width: 41.5%;
+        width: 39%;
+    }
+
+    footer .footerlogos {
+        width: 20%;
+    }
+
+    footer .copyright {
+        width: 80%;
     }
 }
 
 @media only screen and (max-width: 715px) {
+
+    header {
+        justify-content: left;
+        width: 100%;
+        height: 12vw;
+    }
+
+    header .divlogo {
+        justify-content: left;
+        width: 100%;
+        padding: 5%;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .emptydiv {
+        display: none;
+    }   
+
+    .divtitlebox {
+        margin-top: 3%;
+    }
 
     .titledivexpertise {
         margin-bottom: 3rem;
@@ -319,6 +356,112 @@
         width: 100%;
         height: 70%;
     }
+
+    .section-experience {
+        height: 100svh;
+        margin-bottom: 10%;
+    }
+
+    .section-experience .divexp {
+        width: 80%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .respexp1hidden {
+        width: 78.5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+    }
+
+    .section-experience {
+        height: auto;
+    }
+
+    .section-experience .divexp {
+        width: 88%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .respexp1hidden {
+        width: 86.5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+    }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 640px) {
+
+    .expertise-section .divtitlebox h3 {
+        font-size: 1.7rem;
+        margin-left: 2rem;
+    }
+
+    .section-experience {
+        height: auto;
+    }
+
+    .section-experience .divexp {
+        width: 88%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .respexp1hidden {
+        width: 86.5%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 3%;
+    }
+
+    .section-experience .titlediv h2:first-child {
+        margin-top: 5%;
+    }
+
+    .section-experience .titlediv h2:last-child {
+        margin-bottom: 8%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .expertise-section .box {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+   .divexp .yearhidden {
+    display: none;
+   }
+
+   .divexp .text {
+    width: 100%;
+   }
+
+   .respexp1hidden {
+    flex-direction: column-reverse;
+   }
+
+   .respexp1hidden .logo {
+    padding: 5%;
+   }
+
+   .respexp1hidden .logo img {
+    width: 100%;
+   }
+
+   
+}
+
+@media only screen and (max-width: 480px) {
+    .content-project .box2,
+    .content-project .box3,
+    .content-project .box4,
+    .content-project .box5 {
+        width: 90%;
+    }
+}
