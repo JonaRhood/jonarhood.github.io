@@ -1,6 +1,7 @@
 /* General */
 html {
     height: --webkit-fill-available;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -237,15 +238,16 @@ section .home-section {
     color: white;
 }
 
-.divlogo {
+.home-section .divlogo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.divlogo img {
-    width: 5%;
+.home-section .divlogo i {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 2.5rem;
     transition: ease all .5s;
 }
 

@@ -317,8 +317,8 @@
     }
 
 
-    .divlogo img {
-        width: 7%;
+    .home-section .divlogo i {
+        font-size: 2rem;
     }
 
     .divtitlebox {
@@ -577,8 +577,9 @@
         width: 71.5% !important;
     }
 
-    .divlogo img {
-        width: 8%;
+    .home-section .divlogo img {
+        font-size: 1rem;
+
     }
 
     .box1 .projectblackbox {
