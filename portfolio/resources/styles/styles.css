@@ -33,9 +33,9 @@ a {
 }
 
 .titlesweb {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #homebanner {
@@ -645,7 +645,10 @@ section .home-section {
 .section-experience .titlediv h2 {
     width: 100%;
     transition: ease all .5s;
+}
 
+.section-experience .titlediv h2:last-child {
+    margin-bottom: 3%;
 }
 
 /* experience divs */
@@ -814,7 +817,7 @@ footer .footerlogos {
 
 footer .footerlogos {
     font-size: 4rem;
-    justify-content: space-between;
+    justify-content: left;
     transition-property: filter;
     transition-duration: 0.1s;
     transition-timing-function: ease-in-out
@@ -851,6 +854,5 @@ footer .copyrigth {
     margin: 0 2%;
     text-align: right;
     line-height: 1.2;
+    transition: ease all .5s;
 }
-
-

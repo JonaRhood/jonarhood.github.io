@@ -224,7 +224,7 @@
         padding-left: 3%;
     }
 
-   
+
 }
 
 @media only screen and (max-width: 870px) {
@@ -313,8 +313,8 @@
 
     header .emptydiv {
         display: none;
-    }   
-    
+    }
+
 
     .divlogo img {
         width: 7%;
@@ -420,6 +420,15 @@
         padding-bottom: 3%;
     }
 
+    .divexp .text {
+        margin-left: 5%;
+    }
+
+    .divexp .plus {
+        width: 20%;
+        justify-content: center;
+    }
+
     .respexp1hidden {
         width: 78.5%;
         padding-top: 3%;
@@ -437,20 +446,32 @@
 
     .divexp .yearhidden {
         display: none;
-       }
+    }
 
-       .divexp .text {
+    .divexp .text {
         width: 100%;
-       }
-    
+    }
 
-}
+    #neonbar {
+        height: 3px;
+    }
 
-@media only screen and (max-width: 640px) {
+    #neonbar::before,
+    #neonbar::after {
+        height: 3px;
+    }
+
+    footer .copyrigth {
+        font-size: 1.2rem;
+        ;
+    }
+
     .expertise-section .box {
         width: 90%;
     }
+
 }
+
 
 @media only screen and (max-width: 570px) {
 
@@ -459,23 +480,26 @@
         font-size: 5vw;
     }
 
-   .respexp1hidden {
-    flex-direction: column-reverse;
-   }
+    .respexp1hidden {
+        flex-direction: column-reverse;
+    }
 
-   .respexp1hidden .logo {
-    padding: 5%;
-   }
+    .respexp1hidden .logo {
+        padding: 5%;
+    }
 
-   .respexp1hidden .logo img {
-    width: 100%;
-   }
+    .respexp1hidden .logo img {
+        width: 100%;
+    }
 
-   .divsubtext .console-container {
-    font-size: 1.5rem;
-}
+    .divsubtext .console-container {
+        font-size: 1.5rem;
+    }
 
-   
+    .divexp .text {
+        font-size: 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -524,5 +548,12 @@
     .divtitletext h1 {
         font-size: 11vw;
     }
-}
 
+    .divexp .text {
+        font-size: 3.2vw;
+    }
+
+    .titlesweb h2 {
+        font-size: 2.3rem ;
+    }
+}

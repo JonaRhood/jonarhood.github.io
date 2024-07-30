@@ -27,6 +27,7 @@ header .divlogo h1:hover {
     background: linear-gradient(90deg, #FF4500, #FF6347, #FF7F50, #FF69B4, #FF1493, #FF69B4, #FF7F50, #FF6347, #FF4500);
     animation: animate 20s linear infinite;
     background-size: 500%;
+    transition: ease all .5s;
 }
 
 #neonbar::before, #neonbar::after {
@@ -38,6 +39,7 @@ header .divlogo h1:hover {
     background: linear-gradient(90deg, #FF4500, #FF6347, #FF7F50, #FF69B4, #FF1493, #FF69B4, #FF7F50, #FF6347, #FF4500);
     animation: animate 25s linear infinite;
     background-size: 500%;
+    transition: ease all .5s;
 }
 
 #neonbar::before {

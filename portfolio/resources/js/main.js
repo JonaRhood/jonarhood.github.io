@@ -18,6 +18,7 @@ const clickedColor = () => {
 
 const clickedMinus = id => {
     document.getElementById(id).innerHTML = '-';
+    document.getElementById(id).style.color = '#00efff';
 }
 
 // unclicked color and "-"
@@ -27,6 +28,7 @@ const unclickedColor = () => {
 
 const unclickedMinus = id => {
     document.getElementById(id).innerHTML = '+';
+    document.getElementById(id).style.color = 'white';
 }
 
 // change clicked Banner
