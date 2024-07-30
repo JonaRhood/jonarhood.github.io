@@ -46,6 +46,25 @@ a {
 }
 
 /* NAV and Logo */
+header .hiddennav {
+    display: none;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+header .hiddennav i {
+    font-size: 1.5rem;
+    transition: ease all .5s;
+}
+
+header .hiddennav i::before {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0.8rem;
+    border-radius: 150px;
+    transition: ease all .5s;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -75,6 +94,18 @@ header .divlogo {
     display: flex;
     width: 30%;
     justify-content: center;
+}
+
+header .divlogo .text {
+    color: #00efff;
+}
+
+header .divlogo .text span:first-child {
+    color: #ffffff;
+}
+
+header .divlogo .text span:last-child {
+    color: #ff00f7;
 }
 
 header .divlogo a {
@@ -215,6 +246,7 @@ section .home-section {
 
 .divlogo img {
     width: 5%;
+    transition: ease all .5s;
 }
 
 /* EXPERTISE */
@@ -622,7 +654,7 @@ section .home-section {
     width: 45%;
     height: 3.5vw;
     background-color: #430e79;
-    border-radius: 0.3vw;
+    border-radius: 5px;
     align-items: center;
     justify-content: space-between;
     padding: 0 1.3% 0 2%;
@@ -668,7 +700,7 @@ section .home-section {
     background-color: #241d41;
     padding: 2% 1.5%;
     margin: 1% 0;
-    border-radius: 0.3vw;
+    border-radius: 5px;
     text-align: left;
     transition: ease all 0.5s;
 }
