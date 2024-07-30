@@ -32,7 +32,8 @@
     }
 
     .respexp1hidden {
-        width: 60%;
+        width: 59%;
+        padding: 2% 2%;
     }
 }
 
@@ -130,7 +131,7 @@
     }
 
     .respexp1hidden {
-        width: 70%;
+        width: 69%;
     }
 
     .section-experience .titlediv h2:last-child {
@@ -218,7 +219,7 @@
     }
 
     .respexp1hidden {
-        width: 68.5%;
+        width: 68%;
         padding-top: 3%;
         padding-bottom: 5%;
         padding-left: 3%;
@@ -379,7 +380,7 @@
     }
 
     .respexp1hidden {
-        width: 78.5%;
+        width: 78% !important;
         padding-top: 3%;
         padding-bottom: 5%;
         padding-left: 3%;
@@ -427,6 +428,10 @@
     .divexp .plus {
         width: 20%;
         justify-content: center;
+    }
+
+    .projectblackbox h4 {
+        font-size: 1.2rem;
     }
 
     .respexp1hidden {
@@ -481,23 +486,53 @@
     }
 
     .respexp1hidden {
+        width: 66.5% !important;
         flex-direction: column-reverse;
+        margin: 2%;
+        padding: 8%;
     }
 
+    .info .divlocation {
+        margin-bottom: 2%;
+    }
+
+    .respexp1hidden .info {
+        width: 100%;
+    }
+
+    .divskills div {
+        padding: 2%  3%;
+        margin-left: 0;
+    }   
+
     .respexp1hidden .logo {
-        padding: 5%;
+        margin-bottom: 5%;
     }
 
     .respexp1hidden .logo img {
-        width: 100%;
+        width: 120%;
+    }
+
+    .respexp1hidden .divp p {
+        line-height: 1.5;
+        font-weight: 300;
+        margin-bottom: 5%;
     }
 
     .divsubtext .console-container {
         font-size: 1.5rem;
     }
 
+    .projectblackbox h5 {
+        font-size: 0.9rem;
+    }
+
     .divexp .text {
         font-size: 1rem;
+    }
+
+    footer .copyrigth {
+        font-size: 1.1rem;
     }
 
 }
@@ -530,15 +565,29 @@
         padding-bottom: 3%;
     }
 
+    .box .divpbox {
+        height: auto;
+    }   
+
+    .box .divtitlebox h3{
+        font-size: 1.5rem;
+    }   
+
     .respexp1hidden {
-        width: 83.5%;
-        padding-top: 3%;
-        padding-bottom: 5%;
-        padding-left: 3%;
+        width: 71.5% !important;
     }
 
     .divlogo img {
         width: 8%;
+    }
+
+    .box1 .projectblackbox {
+        padding: 8%;
+    }
+
+    .projectblackbox h4 {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
     }
 
     .divsubtext .console-container {
@@ -554,6 +603,77 @@
     }
 
     .titlesweb h2 {
-        font-size: 2.3rem ;
+        font-size: 2.7rem ;
+    }
+
+    footer .copyrigth {
+        font-size: 1rem;
+    }
+
+    footer .footerlogos {
+        font-size: 2.5rem;
+    }   
+    
+}
+
+@media only screen and (max-width: 420px) {
+    .info .divp p{
+        font-size: 0.8rem;
+    }
+
+    .info .divlocation {
+        font-size: 0.8rem;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    .box .divtitlebox h3{
+        font-size: 1.2rem;
+    }
+
+    .expertise-section .divpbox p {
+        font-size: 0.9rem;
+    }
+
+    .expertise-section .divpbox {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    footer .copyrigth {
+        font-size: 0.8rem;
+    }
+
+    .info .divlocation span {
+        font-size: 0.7rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .footerlogos {
+        width: 100%;
+    }
+
+    footer .copyright {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer .copyright h5, h6 {
+        text-align: center !important;
+    }
+
+    footer .copyright h6, h5 {
+        text-align: center !important;
+    }
+
+    footer .footerlogos {
+        justify-content: center;
+        margin: 0;
+    }
+}   
