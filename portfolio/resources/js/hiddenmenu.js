@@ -42,4 +42,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }, 100);
         });
     });
+
+    window.addEventListener("resize", () => {
+        let size = parseInt(document.body.clientWidth);
+
+        if (size >= 715) {
+            aside.classList.remove("hiddennavpage--visible");
+                button.innerHTML = '';
+                button.innerHTML = '<i class="fa-sharp-duotone fa-solid fa-bars logo-hiddennav i-hiddennav"></i>';
+                button.style.color = 'white';
+                button.style.position = '';
+                document.querySelector('.i-hiddennav').style.backgroundColor = 'rgba(255, 255, 255, 0.05)';
+        }
+
+    });
+
 });
