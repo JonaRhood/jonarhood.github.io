@@ -238,42 +238,47 @@ section .home-section {
     color: white;
 }
 
+.home-section .divlogo i {
+    color: white;
+}
+
 .home-section .divlogo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.home-section .divlogo i {
     color: white;
     font-size: 2.5rem;
     transition: ease all .5s;
     opacity: 0;
-    animation-name: blinking-scrolldown;
+    animation: blinking-scrolldown;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    -webkit-animation: blinking-scrolldown;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes blinking-scrolldown {
     0%
     {
-        opacity: 0.6;
+        -webkit-opacity: 0.6;
     }
     50%
     {
-        opacity: 0.2;
+        -webkit-opacity: 0.2;
     }
     100%
     {
-        opacity: 0.6;
+        -webkit-opacity: 0.6;
     }
 }
 
-.home-section .divlogo i:hover {
+.home-section .divlogo:hover {
     animation-play-state: paused;
-    
+
 }
 
 

@@ -614,6 +614,10 @@
     footer .footerlogos {
         font-size: 2.5rem;
     }   
+
+    footer {
+        height: 12vh;
+    }
     
 }
 
@@ -646,6 +650,8 @@
 @media only screen and (max-width: 350px) {
     footer .copyrigth {
         font-size: 0.8rem;
+        text-align: center;
+        width: 100%;
     }
 
     .info .divlocation span {
@@ -654,27 +660,20 @@
 
     footer {
         flex-direction: column;
+         align-items: baseline;
+         justify-content: flex-start;
     }
 
     footer .footerlogos {
         width: 100%;
-    }
-
-    footer .copyright {
-        width: 100%;
-        margin: 0;
-    }
-
-    footer .copyright h5, h6 {
-        text-align: center !important;
-    }
-
-    footer .copyright h6, h5 {
-        text-align: center !important;
     }
 
     footer .footerlogos {
         justify-content: center;
         margin: 0;
+    }
+
+    footer .copyright h5, h6 {
+        display: none !important;
     }
 }   
