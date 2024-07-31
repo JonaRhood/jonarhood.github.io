@@ -548,10 +548,6 @@
         font-size: 1.2rem;
     }
 
-    header .hiddennav i::before {
-        padding: 0.6rem;
-    }
-
     .content-project .box2,
     .content-project .box3,
     .content-project .box4,
