@@ -756,6 +756,10 @@ section .home-section {
     transition: ease all 0.5s;
 }
 
+.section-experience .divexp:active {
+    background-color: lightcoral;
+}
+
 
 .divexp .text {
     display: flex;
@@ -860,13 +864,32 @@ section .home-section {
     opacity: 0.8;
 }
 
+.experiencevisible {
+    background-color: #740bdb !important;
+}
+
+.experience-bannervisible {
+    display: flex !important;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.experience-bannerinvisible {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
 /* Escondido */
 .respexp1hidden:nth-child(n+4) {
     display: none;
 }
 
+#signbanner1 {
+    color: #00efff;
+}
+
 #hiddenbanner1 {
-    display: flex;
+    display: none;
 }
 
 #hiddenbanner2 {
