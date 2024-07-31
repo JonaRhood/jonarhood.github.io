@@ -83,7 +83,6 @@ header .hiddennav .i-hiddennav {
     font-size: 1.4rem;
     transform: translateX(-100%);
     opacity: 1;
-    transition: transform 0.1s ease, opacity 0.1s ease;
 }
 
 .hiddennavpage--visible {
