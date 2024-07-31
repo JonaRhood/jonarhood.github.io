@@ -677,3 +677,10 @@
         display: none !important;
     }
 }   
+
+
+@media (min-width: 715px) and (max-width: 9999px) {
+    .hiddennavpage {
+        display: none;
+    }
+}
