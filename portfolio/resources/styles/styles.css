@@ -81,17 +81,17 @@ header .hiddennav .i-hiddennav {
     line-height: 2.5;
     color: black;
     font-size: 1.4rem;
-    margin-left: -100%;
+    transform: translateX(-100%);
     opacity: 1;
 }
 
 .hiddennavpage--visible {
-    margin-left: 0%;
+    transform: translateX(0%);
     opacity: 1;
 }
 
 .hiddennavpage--hidden {
-    margin-left: -100%;
+    transform: translateX(-100%);
     opacity: 0;
 }
 
@@ -110,7 +110,8 @@ header .hiddennav .i-hiddennav {
 .hiddennavpage h5 {
     font-family: 'Poppins', sans-serif;
     margin-left: 5%;
-    font-size: 1rem;;
+    font-size: 1rem;
+    ;
     margin-right: 5%;
     line-height: 1.5;
     margin-top: 8%
@@ -312,16 +313,15 @@ section .home-section {
 }
 
 @keyframes blinking-scrolldown {
-    0%
-    {
+    0% {
         -webkit-opacity: 0.6;
     }
-    50%
-    {
+
+    50% {
         -webkit-opacity: 0.2;
     }
-    100%
-    {
+
+    100% {
         -webkit-opacity: 0.6;
     }
 }
