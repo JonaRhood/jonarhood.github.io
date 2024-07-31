@@ -83,6 +83,7 @@ header .hiddennav .i-hiddennav {
     font-size: 1.4rem;
     transform: translateX(-100%);
     opacity: 1;
+    transition: ease all .5s;
 }
 
 .hiddennavpage--visible {
@@ -97,14 +98,15 @@ header .hiddennav .i-hiddennav {
 
 .hiddennavpage a {
     color: black;
+    margin: 6%
 }
 
 .hiddennavpage ul {
     margin-top: 20%;
 }
 
-.hiddennavpage ul li {
-    margin-left: 5%;
+.hiddennavpage ul li:active {
+    background-color: rgb(168, 168, 168);
 }
 
 .hiddennavpage h5 {
