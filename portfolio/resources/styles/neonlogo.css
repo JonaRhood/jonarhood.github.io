@@ -1,6 +1,7 @@
 header .divlogo h1 {
     color: white;
     transition: text-shadow 1s ease-in-out;
+    transition: color 1s ease-in-out;
 
 }
 
