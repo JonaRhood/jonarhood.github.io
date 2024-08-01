@@ -206,7 +206,7 @@ header nav a {
     transform: translateY(-100%);
     visibility: 0;
     opacity: 0;
-    transition: ease all .5s;
+    transition: transform ease-in-out .8s;
     width: 100%;
     top: 0;
     height: 8%;
@@ -223,8 +223,8 @@ header nav a {
     visibility: 1;
     opacity: 1;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(40px);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
 }
 
 nav:hover li a {
