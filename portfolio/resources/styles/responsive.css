@@ -115,7 +115,7 @@
         }
 
         .respexp1hidden {
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
 
         .info .divskills {
@@ -458,15 +458,12 @@
             height: 70%;
         }
 
-        .section-experience {
-            height: 100svh;
-            margin-bottom: 10%;
-        }
 
         .section-experience .divexp {
             width: 85%;
             padding-top: 1%;
             padding-bottom: 1%;
+            height: 100% !important;
         }
 
         .respexp1hidden {
@@ -478,6 +475,7 @@
 
         .section-experience {
             height: auto;
+            margin-bottom: 15%;
         }
 
         .section-experience .divexp {
@@ -507,8 +505,8 @@
 
         .section-experience .divexp {
             width: 80%;
-            padding-top: 3%;
-            padding-bottom: 3%;
+            padding-top: 2%;
+            padding-bottom: 2%;
         }
 
         .divexp .text {
@@ -591,7 +589,7 @@
         }
 
         .divskills div {
-            padding: 2% 3%;
+            padding: 2.5% 3%;
             margin-left: 0;
         }
 
@@ -604,7 +602,7 @@
         }
 
         .respexp1hidden .divp p {
-            line-height: 1.5;
+            line-height: 1.8;
             font-weight: 300;
             margin-bottom: 5%;
         }
