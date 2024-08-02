@@ -9,8 +9,17 @@ document.addEventListener("DOMContentLoaded", (event) => {
         link.rel = "stylesheet";
         link.type = "text/css";
         link.href = "resources/styles/dark.css"
+        link.id = "colorful-theme"
 
-        head.appendChild(link);
+        let themeColored = document.querySelector("#colorful-theme");
+
+        if (themeColored) {
+            head.removeChild(themeColored);
+        } else {
+            head.appendChild(link);
+        }
 
     });
+
+    
 });

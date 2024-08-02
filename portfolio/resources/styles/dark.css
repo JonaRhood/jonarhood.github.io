@@ -102,6 +102,44 @@
     color: #ffa600;
 }
 
+/* NEON TITLE h1 */
+.divtitletext h1 {
+    text-align: center;
+    background: linear-gradient(90deg, 
+        #ff0000, 
+        #ff7f00, 
+        #ffff00, 
+        #00ff00, 
+        #0000ff, 
+        #4b0082, 
+        #ee82ee, 
+        #ff0000);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: neonRainbow 5s linear infinite;
+    text-shadow: 
+        0 0 5px rgba(255,255,255,0.8), 
+        0 0 10px rgba(255,255,255,0.8),
+        0 0 20px rgba(255,255,255,0.8),
+        0 0 40px rgba(255,0,0,0.6),
+        0 0 80px rgba(255,0,0,0.6),
+        0 0 90px rgba(255,0,0,0.6),
+        0 0 100px rgba(255,0,0,0.6);
+}
+
+@keyframes neonRainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 #magentaunderline::after {
     background: linear-gradient(65deg, #ffa600 0%, #ffa600 100%, rgba(255, 209, 0, 0) 100%);

@@ -1,5 +1,5 @@
 /* Animación Título principal */
-.divtitletext h1 {
+/* .divtitletext h1 {
     animation-name: showUp;
     animation-duration: 5s;
 }
@@ -13,7 +13,7 @@
     {
         transform: scale(100%);
     }
-}
+} */
 
 /* Animacion cajas Expertise */
 

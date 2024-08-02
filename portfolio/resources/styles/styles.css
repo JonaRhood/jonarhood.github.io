@@ -352,7 +352,6 @@ section .home-section {
     font-weight: 1000;
     text-transform: uppercase;
     color: white;
-    transition: ease all 2s;
 }
 
 .divsubtext h2 {

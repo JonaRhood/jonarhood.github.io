@@ -15,16 +15,83 @@
     backdrop-filter: blur(5px);
     transition: ease all .5s;
 }
+
 .color-switcher i {
     transition: ease transform .5s;
+    text-align: center;
+    background: linear-gradient(90deg, 
+        #ff0000, 
+        #ff7f00, 
+        #ffff00, 
+        #00ff00, 
+        #00ffff, 
+        #00ff7f, 
+        #ff1493, 
+        #ff0000);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: neonRainbow 10s linear infinite;
+    text-shadow: 
+        0 0 1px rgba(255,255,255,0.2);
 }
 
+@keyframes neonRainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+}
+
+
+
 .color-switcher:hover {
-    background-color: rgba(255,255,255,0.05);
-     border: 2px solid rgba(255,255,255,0.4);
+    border: 2px solid rgb(255, 165, 0, 0.8);
      cursor: pointer;
+     animation-name: filterAnimation;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
     i {
         transform: scale(120%);
+    }
+}
+
+@keyframes filterAnimation {
+    0% {
+        filter: saturate(200%) hue-rotate(0deg);
+    }
+    10% {
+        filter: saturate(200%) hue-rotate(36deg);
+    }
+    20% {
+        filter:  saturate(200%) hue-rotate(72deg);
+    }
+    30% {
+        filter: saturate(200%) hue-rotate(108deg);
+    }
+    40% {
+        filter: saturate(200%) hue-rotate(144deg);
+    }
+    50% {
+        filter: saturate(200%) hue-rotate(180deg);
+    }
+    60% {
+        filter: saturate(200%) hue-rotate(216deg);
+    }
+    70% {
+        filter: saturate(200%) hue-rotate(252deg);
+    }
+    80% {
+        filter:  saturate(200%) hue-rotate(288deg);
+    }
+    90% {
+        filter:  saturate(200%) hue-rotate(324deg);
+    }
+    100% {
+        filter: saturate(200%) hue-rotate(360deg);
     }
 }
 
