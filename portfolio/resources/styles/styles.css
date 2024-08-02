@@ -394,7 +394,11 @@ section .home-section {
     color: white;
     font-size: 2.5rem;
     transition: ease all .5s;
-    opacity: 0;
+    
+}
+
+.home-section .divlogo i {
+opacity: 0;
     animation: blinking-scrolldown;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -419,7 +423,7 @@ section .home-section {
     }
 }
 
-.home-section .divlogo:hover {
+.home-section .divlogo i:hover {
     animation-play-state: paused;
 
 }

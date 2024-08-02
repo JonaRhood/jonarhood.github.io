@@ -6,7 +6,6 @@ header .divlogo h1 {
 }
 
 header .divlogo h1:hover {
-
     color: white;
     cursor: pointer;
     text-shadow: 0 0 5px rgb(255, 93, 177),
