@@ -1,5 +1,16 @@
 
+.divlogo i {
+    color: orange !important;
+    animation-name: filterAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    filter: opacity(0.6);
+}
 
+.divlogo i:hover {
+    filter: opacity(1);
+}
 
 #homebanner {
     /* background-image: url(../images/backgrinvert.png); */ 
