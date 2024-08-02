@@ -13,6 +13,7 @@ body {
     color: white;
     word-wrap: break-word;
     height: --webkit-fill-available;
+    transition: filter ease 2s;
 }
 
 ::selection {
@@ -44,6 +45,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: filter ease 2s;
 }
 
 /* NAV and Logo */
@@ -201,31 +203,7 @@ header nav a {
     transition: ease all .5s;
 }
 
-.nav-bar-hidden-sticky {
-    position: absolute;
-    transform: translateY(-100%);
-    visibility: 0;
-    opacity: 0;
-    transition: transform ease-in-out .8s;
-    width: 100%;
-    top: 0;
-    height: 8%;
-    align-items: center;
-}
 
-.nav-bar-hidden-sticky a {
-    color: #00efff;
-}
-
-.sticky-navbar {
-    position: fixed;
-    transform: translateY(0%);
-    visibility: 1;
-    opacity: 1;
-    z-index: 999;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
-}
 
 nav:hover li a {
     color: rgba(255, 255, 255, 0.5);
@@ -374,6 +352,7 @@ section .home-section {
     font-weight: 1000;
     text-transform: uppercase;
     color: white;
+    transition: ease all 2s;
 }
 
 .divsubtext h2 {
