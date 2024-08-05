@@ -827,6 +827,10 @@ opacity: 0;
     transition: ease all 0.5s;
 }
 
+.section-experience .divexp:hover {
+    background-color: #591a98;
+}
+
 
 .divexp .text {
     display: flex;
