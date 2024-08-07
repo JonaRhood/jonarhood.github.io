@@ -845,6 +845,10 @@ opacity: 0;
     transition: color 0.3s ease-in-out;
 }
 
+.divexp .plus:hover {
+    color: #00efff !important;
+}
+
 .divexp .plus span {
     color: white;
     transition: color 0.3s ease-in-out;

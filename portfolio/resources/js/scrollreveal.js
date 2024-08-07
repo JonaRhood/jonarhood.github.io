@@ -4,7 +4,7 @@ const sr = ScrollReveal({
     origin: "top",
     distance: "2rem",
     rotate: {x: 0, y:0, z:5},
-    duration: 2500,
+    duration: 1200,
     reset: true
 })
 
@@ -32,4 +32,5 @@ sr.reveal('.box-project-4', {delay:150, rotate:0, position:"4rem", scale:0.9});
 sr.reveal('.box-project-5', {delay:200, rotate:0, position:"4rem", scale:0.9});
 
 // Proffesional Experience
-sr.reveal('.section-experience', {delay:500, rotate:0, distance:"4rem"});
+sr.reveal('.section-experience', {delay:500, rotate:0, distance:"2rem"});
+sr.reveal('.plus-link', {delay:500, rotate:0, origin: "left", scale:0.1, duration:2000});
