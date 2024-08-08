@@ -5,12 +5,12 @@ const sr = ScrollReveal({
     distance: "2rem",
     rotate: {x: 0, y:0, z:5},
     duration: 1200,
-    reset: true
+    reset: false
 })
 
 
 //Titles
-sr.reveal(".divsubtext", {origin:"bottom", rotate:0, distance:"3rem", duration:3000});
+sr.reveal(".divsubtext", {origin:"bottom", rotate:0, distance:"3rem", duration:3000, reset:true});
 sr.reveal(".titlesweb", {origin:"top", rotate:0, distance:"1rem"});
 
 //Down-Logo
