@@ -4,19 +4,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     const moveUpBtn = () => {
         const scrollY = parseInt(window.scrollY);
+        const scrollTotal = parseInt(document.body.scrollHeight);
         const width = parseInt(document.body.clientWidth);
         const height = parseInt(document.body.clientHeight);
-        console.log(scrollY, width, height);
 
-        if (scrollY > 3000) {
-            downBtn.style.transform = "translateY(-8rem)";
-        } else if (scrollY > 2000 && width > 450 && width < 1000) {
-            downBtn.style.transform = "translateY(-8rem)";
-        } else if (scrollY > 2500 && width < 450) {
+        let calculateScroll = 0.75 * scrollTotal;
+        console.log(scrollY, scrollTotal, calculateScroll);
+
+        if (scrollY > calculateScroll) {
             downBtn.style.transform = "translateY(-8rem)";
         } else {
-            downBtn.style.transform = "translateY(0rem)";
+            downBtn.style.transform = "translateY(0)";
         }
+
     };
 
     window.addEventListener("scroll", moveUpBtn);
